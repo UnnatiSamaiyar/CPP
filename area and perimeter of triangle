@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int length,width;
+	cout<<"The length of rectangle is: ";
+	cin>>length;
+	cout<<"\nThe width of rectangle is: ";
+	cin>>width;
+	int area,perimeter;
+	area = length * width;
+	cout<<"\nThe area of rectangle is: "<<area;
+	perimeter = 2 * (length + width);
+	cout<<"\nThe perimeter of rectangle is: "<<perimeter;
+}
