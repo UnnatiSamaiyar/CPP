@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>>
+using namespace std;
+int main(){
+	int r;
+	cout<<"Enter the radius of sphere: ";
+	cin>>r;
+	float volume;
+	volume = (4*3.14*r*r*r)/3;
+	cout<<"\nVolume of sphere is: ";
+	cout<<volume;
+}
