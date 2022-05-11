@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>>
+using namespace std;
+int main(){
+	int side;
+	cout<<"Input the side of cube: ";
+	cin>>side;
+	int volume;
+	volume = side * side * side;
+	cout<<"\nThe volume of cube is: ";
+	cout<<volume;
+}
