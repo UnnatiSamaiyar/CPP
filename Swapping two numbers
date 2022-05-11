@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int a,b,c;
+	cout<<"Input first number: ";
+	cin>>a;
+	cout<<"\nInput second number: ";
+	cin>>b;
+	c=b;
+	b=a;
+	a=c;
+	cout<<"\nValue of a is: "<<a;
+	cout<<"\nValue of b is: "<<b;
+}
