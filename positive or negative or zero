@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int x;
+	cout<<"Input the number: ";
+	cin>>x;
+	if (x>1){
+		cout<<"\nThe number is positive.";
+	}
+	else if (x<1){
+		cout<<"\nThe number is negative.";
+	}
+	else{
+		cout<<"\nThe number is zero.";
+	}
+}
