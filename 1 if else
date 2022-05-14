@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int x;
+	int y;
+	cin>>x>>y;
+	if (x==y){
+		cout<<(x+y)*3;
+	}
+	else{
+		cout<<(x+y);
+	}
+}
