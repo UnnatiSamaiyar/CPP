@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	cout<<"The first  10 natural numbers are: \n";
+	for(int i=1; i<11; i++){
+		cout<<i<<" ";
+	}
+}
