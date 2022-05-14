@@ -4,9 +4,9 @@ int main(){
 	int n;
 	cin>>n;
 	if(n%2==0){
-		cout<<"The number is Prime.";
+		cout<<"The number is even.";
 	}
 	else{
-		cout<<"The number is not Prime.";
+		cout<<"The number is not even.";
 	}
 }
