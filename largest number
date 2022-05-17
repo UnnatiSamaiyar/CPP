@@ -1,0 +1,20 @@
+/*Write a C program to find the largest of three numbers.*/
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int num1,num2,num3;
+	cin>>num1>>num2>>num3;
+	cout<<"First number is "<<num1<<endl;
+	cout<<"Second number is "<<num2<<endl;
+	cout<<"Third number is "<<num3<<endl;
+	if((num1>num2) &&(num1>num3)){
+		cout<<"First number is largest";
+	}
+	if((num2>num1) && (num2>num3)){
+		cout<<"Second number is largest";
+	}
+	else{
+		cout<<"Third number is largest";
+	}
+}
