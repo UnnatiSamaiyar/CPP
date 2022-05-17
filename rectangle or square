@@ -1,0 +1,15 @@
+/*Take values of length and breadth of a rectangle from user and check if it is square or not.*/
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int length,breadth;
+	cin>>length;
+	cin>>breadth;
+	if(length == breadth){
+		cout<<"IT IS A SQUARE."<<endl;
+	}
+	else{
+		cout<<"IT IS A RECTANGLE."<<endl;
+	}
+}
