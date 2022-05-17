@@ -1,0 +1,25 @@
+/*Write a C program to read temperature in centigrade and display a suitable message*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int temperature;
+	cin>>temperature;
+	if(temperature<0){
+		cout<<"Freezing Weather."<<endl;
+	}
+	if((temperature>0) && (temperature<10)){
+		cout<<"Very cold weather."<<endl;
+	}
+	if((temperature>10) && (temperature<20)){
+		cout<<"Cold weather."<<endl;
+	}
+	if((temperature>20) && (temperature<30)){
+		cout<<"Normal weather."<<endl;
+	}
+	if((temperature>30) && (temperature<40)){
+		cout<<"Hot weather."<<endl;
+	}
+	if(temperature>=40){
+		cout<<"Very Hot weather."<<endl;
+	}
+}
