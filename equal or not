@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int number1, number2;
+	cin>>number1>>number2;
+	if(number1==number2){
+		cout<<"Number1 and Number2 are equal.";
+	}
+	else{
+		cout<<"Number1 and Number2 are not equal.";
+	}
+}
