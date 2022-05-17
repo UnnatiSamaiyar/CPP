@@ -1,0 +1,19 @@
+/*Write a program in C++ to check whether a number is prime or not.*/
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int number, check=0;
+	cin>>number;
+	for(int i=1; i<=number; i++){
+		if(number%i==0){
+			check++;
+		}
+	}
+	if(check==2){
+		cout<<number<<" is a prime number."<<endl;
+	}
+	else{
+		cout<<number<<" is not a prime number."<<endl;
+	}
+}
