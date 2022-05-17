@@ -1,0 +1,14 @@
+/*Take two int values from user and print greatest among them.*/
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int a,b;
+	cin>>a>>b;
+	if(a>b){
+		cout<<"A is greater than B.";
+	}
+	else{
+		cout<<"B is greater than A.";
+	}
+}
