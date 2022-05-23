@@ -1,0 +1,18 @@
+/*INSERTING VALUES IN ARRAY*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int mathmarks[5];
+	mathmarks[0] = 45;
+	mathmarks[1] = 78;
+	mathmarks[2] = 98;
+	mathmarks[3] = 89;
+	cout<<"These are mathmarks"<<endl;
+	
+	cout<<mathmarks[0]<<endl;
+	cout<<mathmarks[1]<<endl;
+	cout<<mathmarks[2]<<endl;
+	cout<<mathmarks[3]<<endl;
+}
