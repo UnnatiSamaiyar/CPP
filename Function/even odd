@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+bool isOdd(int b){
+	if(b%2==0){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+int main(){
+	int num;
+	cin>>num;
+	bool i = isOdd(num);
+	if(i){
+		cout<<"True";
+	}
+	else{
+		cout<<"False";
+	}
+}
