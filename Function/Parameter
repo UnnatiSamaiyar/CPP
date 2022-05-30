@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void myFunction(string fname){
+	cout<<fname<<" 123"<<endl;
+}
+int main(){
+	myFunction("Jenny");
+	myFunction("Liam");
+	myFunction("Anja");
+	return 0;
+}
