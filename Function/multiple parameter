@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+void myFunction(string fname, int age){
+	cout<<fname<<" "<<"Age: "<<age<<endl;
+}
+int main(){
+	myFunction("Liza", 45);
+	myFunction("John", 34);
+	myFunction("Jenny", 23);
+}
