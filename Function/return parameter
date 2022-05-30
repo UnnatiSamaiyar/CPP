@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int myFunction(int x, int y){
+	cout<<x+y<<endl;
+	cout<<x-y<<endl;
+	cout<<x*y<<endl;
+	cout<<x/y<<endl;
+	cout<<x%y<<endl;
+	return x+y;
+	return x-y;
+	return x*y;
+	return x/y;
+	return x%y;
+}
+int main(){
+	myFunction(5,6);
+	return 0;
+}
