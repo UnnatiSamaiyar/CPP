@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void myFunction(string country = "India"){
+	cout<<country<<endl;
+}
+int main(){
+	myFunction();
+	myFunction("London");
+	myFunction("Norway");
+}
