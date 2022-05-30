@@ -1,0 +1,100 @@
+//Modifiers in Vector
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	vector<int> A;
+	
+	//Assing
+	A.assign(5,11);
+	cout<<"A.assign: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	//Push back
+	A.push_back(20);
+	int n=A.size();
+	cout<<"A.push_back: "<<A[n-1]<<endl;
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+	//Pop back
+	A.pop_back();
+	cout<<"A.pop_back: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+	//Insert
+	A.insert(A.begin(), 53);
+	cout<<"The first element is: "<<A[0]<<endl;
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+	//Erase
+	A.erase(A.begin());
+	cout<<"The first element is: "<<A[0]<<endl;
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+	//Emplace
+	A.emplace(A.begin(), 45);
+	cout<<"The first element is: "<<A[0]<<endl;
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+	//Emplace back
+	A.emplace_back(78);
+	int m= A.size();
+	cout<<"The last element of vector: "<<A[m-1]<<endl;
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+	//Clear
+	A.clear();
+	cout<<"Updated vector: ";
+	for(int i=0; i<A.size(); i++){
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"*Size of updated vector: "<<A.size()<<"*"<<endl;
+	
+}
