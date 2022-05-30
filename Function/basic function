@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+void myFunction(){
+	cout<<"MY FUNCTION";
+}
+int main(){
+	myFunction();
+	return 0;
+}
