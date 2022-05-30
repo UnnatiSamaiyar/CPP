@@ -1,0 +1,34 @@
+//Two vectors for swapping
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	vector<int> A1={10,20};
+	vector<int> A2={30,40};
+	
+	cout<<"A1: ";
+	for(int i=0; i<A1.size(); i++){
+		cout<<A1[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"A2: ";
+	for(int j=0; j<A2.size(); j++){
+		cout<<A2[j]<<" ";
+	}
+	cout<<endl;
+	
+	A1.swap(A2);
+	
+	cout<<"A1: ";
+	for(int i=0; i<A1.size(); i++){
+		cout<<A1[i]<<" ";
+	}
+	cout<<endl;
+	
+	cout<<"A2: ";
+	for(int j=0; j<A2.size(); j++){
+		cout<<A2[j]<<" ";
+	}
+}
