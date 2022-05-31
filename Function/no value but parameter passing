@@ -1,0 +1,15 @@
+//Function not returning a value but parameter passing
+ 
+#include<bits/stdc++.h>
+using namespace std;
+ 
+void add(int n1, int n2){
+	int s=n1+n2;
+	cout<<"Addition: "<<s<<endl;
+}
+int main(){
+	int n1,n2;
+	cout<<"Enter two numbers: "<<endl;
+	cin>>n1>>n2;
+	add(n1,n2);
+}
