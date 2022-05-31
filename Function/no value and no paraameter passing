@@ -1,0 +1,14 @@
+//Function not returning a value and no parameter passing.
+
+#include<bits/stdc++.h>
+using namespace std;
+void add(){
+	int n1,n2,s;
+	cout<<"Enter two numbers: "<<endl;
+	cin>>n1>>n2;
+	s=n1+n2;
+	cout<<"Addition = "<<s<<endl;
+}
+int main(){
+	add();
+}
