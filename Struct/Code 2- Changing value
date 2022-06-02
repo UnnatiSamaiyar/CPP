@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+struct Point{
+	int x;
+	int y;
+	int z;
+};
+int main(){
+	Point p1={1,2,3};
+	cout<<"x:"<<p1.x<<" y:"<<p1.y<<" z:"<<p1.z<<endl;
+	
+	p1.y=18;
+	cout<<"x:"<<p1.x<<" y:"<<p1.y<<" z:"<<p1.z<<endl;
+	
+	return 0;
+}
