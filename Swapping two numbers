@@ -1,15 +1,20 @@
+//Swapping two values
+
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
-	int a,b,c;
-	cout<<"Input first number: ";
-	cin>>a;
-	cout<<"\nInput second number: ";
-	cin>>b;
-	c=b;
-	b=a;
-	a=c;
-	cout<<"\nValue of a is: "<<a;
-	cout<<"\nValue of b is: "<<b;
+	int a;
+	int b;
+	cin>>a>>b;
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"Value of b: "<<b<<endl;
+	cout<<endl;
+	
+	int temp;
+	temp=a;
+	a=b;
+	b=temp;
+	cout<<"AFTER SWAPPING"<<endl;
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"Value of b: "<<b<<endl;
 }
