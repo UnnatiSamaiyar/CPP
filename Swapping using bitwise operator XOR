@@ -1,0 +1,19 @@
+//Swapping using bitwise operator XOR(^)
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int a;
+	int b;
+	cin>>a>>b;
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"Value of b: "<<b<<endl;
+	cout<<endl;
+	
+	a=a^b;
+	b=a^b;
+	a=a^b;
+	cout<<"AFTER SWAPPING"<<endl;
+	cout<<"Value of a: "<<a<<endl;
+	cout<<"Value of b: "<<b<<endl;
+}
