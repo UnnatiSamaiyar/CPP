@@ -1,0 +1,30 @@
+//Reversing array by swapping
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int n;
+	cin>>n;
+	
+	int A[n];
+	
+	cout<<"Before swapping ";
+	for(int i=0; i<n; i++){
+		cin>>A[i];
+		cout<<A[i]<<" ";
+	}
+	cout<<endl;
+	
+	int s=0;
+	int e=n-1;
+	while(s<=e){
+		swap(A[s],A[e]);
+		s++;
+		e--;
+	}
+	cout<<"After swapping "<<" ";
+	for(int i=0; i<n; i++){
+		cout<<A[i]<<" ";
+	}
+}
