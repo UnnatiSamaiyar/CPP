@@ -1,0 +1,13 @@
+//Character Array
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	char name[100];
+	cin>>name;
+	name[1]='a';
+	name[2]='b';
+	name[3]='c';
+	cout<<"Your name is "<<name<<endl;
+}
