@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+void recurrsion(string X){
+	cout<<X<<endl;
+	if(X.size()==3){
+		return;
+	}
+	for(char a='a'; a<='c'; a++){
+		recurrsion(X+a);
+	}
+}
+
+int main(){
+	recurrsion("");
+	return 0;
+}
