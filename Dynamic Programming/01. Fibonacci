@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int fib(int n, vector<int>A){
+	if(n<=2){
+		return 1;
+	}
+	if(A[n]!=0){
+		return A[n];
+	}
+	else{
+		A.push_back(fib(n-1,A)+fib(n-2,A));
+		return (fib(n-1,A)+fib(n-2,A));
+	}
+}
+
+int main(){
+	int n;
+	cin>>n;
+	cout<<"n:"<<n<<endl;
+	vector<int>A(n);
+	cout<<fib(n,A);
+}
