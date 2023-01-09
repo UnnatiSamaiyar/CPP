@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int gridTraveller(int x, int y, vector<int>A){
+	
+	if(x==1 && y==1){
+		return 1;
+	}
+	if(x==0 || y==0){
+		return 0;
+	}
+	if(A[x]>1 || A[y]>1){
+		return A[x+y];
+	}
+	else{
+		A.push_back(gridTraveller(x-1,y,A)+gridTraveller(x,y-1,A));
+		return (gridTraveller(x-1,y,A)+gridTraveller(x,y-1,A));
+	}
+}
+
+int main(){
+	int x,y;
+	cin>>x>>y;
+	
+	vector<int>A(x+y);
+
+	cout<<"("<<x<<","<<y<<")"<<endl;
+	cout<<gridTraveller(x,y,A);
+}
